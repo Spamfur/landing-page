@@ -194,6 +194,8 @@ img {
     align-items: center;
     gap: 100px;
     padding:100px;
+    background-image: url("./images/pa-background.png");
+
     
 }
 
@@ -206,6 +208,7 @@ img {
     width: 1000px;
     padding: 50px;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
 }
 
 .action-bold{
@@ -225,4 +228,13 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2aae3;
+    height: 20px;
+    padding:10px;
 }

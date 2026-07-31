@@ -54,7 +54,7 @@ img {
     color: white;
     background-color: #ffadab;
     border-radius: 25px;
-    text-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
     flex-wrap: wrap;
     padding: 20px;
     width: 400px;
@@ -72,7 +72,7 @@ img {
     justify-content: center;
     align-items: center;
     color: white;
-    text-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
 }
 .head-image-text{
     padding:8px;
@@ -136,4 +136,61 @@ img {
     border-radius: 15px;
     padding: 10px;
 }
+
+.quote{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+    background-color: #ffadabce;
+    
+}   
+
+.quote-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.75);
+    width: 600px;
+    font-size: 30px;
+    
+}
+
+.quote-author{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.75);
+    gap:5px;
+    margin-right: -325px;
+    
+    
+}
+
+.quote img{
+    border: 1px;
+}
+
+.quote-alignment{
+    display: flex;
+}
+
+.quote-brownie{
+    margin-bottom: -40px;
+}
+
+.quote-author-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 

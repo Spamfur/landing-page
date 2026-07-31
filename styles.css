@@ -26,6 +26,11 @@ img {
 
 }
 
+.white-bold{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.75);
+}
+
 .header-text{
     color:white;
     font-weight: bold;
@@ -119,13 +124,7 @@ img {
     border-bottom: 0px solid #6A8DB5
 }
 
-.slideshow-image .black{
-    background-color: black;
-}
 
-.slideshow-image .purple{
-    background-color: purple;
-}
 
 .slideshow-text{
     
@@ -154,8 +153,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0,0,0, 0.75);
     width: 600px;
     font-size: 30px;
     
@@ -165,11 +162,8 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0,0,0, 0.75);
     gap:5px;
     margin-right: -325px;
-    
     
 }
 
@@ -179,6 +173,7 @@ img {
 
 .quote-alignment{
     display: flex;
+    gap:20px;
 }
 
 .quote-brownie{
@@ -193,4 +188,41 @@ img {
 }
 
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding:100px;
+    
+}
 
+.action-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #6A8DB5;
+    width: 1000px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.action-bold{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.action-button button{
+    border-radius: 18px;
+    background-color: #6A8DB5;
+    padding: 10px;
+    border: 2px solid white;
+    width: 150px;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
